@@ -18,9 +18,9 @@ function currentLine(katzDeliCurrentLine) {
   else {
     let message = 'The line is currently:';
   for (let i=0;i< katzDeliCurrentLine.length-1;i++){
-    message = message+` ${i+1}. ${katzDeliCurrentLine[i]},`
+    m = m +` ${i+1}. ${katzDeliCurrentLine[i]},`
   }
-  message = message+` ${katzDeliCurrentLine.length}. ${katzDeliCurrentLine[katzDeliCurrentLine.length-1]}`
-  return message;
+  m = m + ` ${katzDeliCurrentLine.length}. ${katzDeliCurrentLine[katzDeliCurrentLine.length-1]}`
+  return m;
 }
 }
