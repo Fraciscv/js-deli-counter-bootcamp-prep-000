@@ -23,3 +23,4 @@ function currentLine(katzDeliCurrentLine) {
   message = message+` ${katzDeliCurrentLine.length}. ${katzDeliCurrentLine[katzDeliCurrentLine.length-1]}`
   return message;
 }
+}
