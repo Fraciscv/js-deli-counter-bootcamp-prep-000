@@ -9,3 +9,4 @@ function nowServing(KatzDeliLine) {
 } else {
     return `Currently serving ${KatzDeliLine.shift()}`;
 }
+}
