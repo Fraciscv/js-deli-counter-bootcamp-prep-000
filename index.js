@@ -1,4 +1,4 @@
-function takeANumber(currentLine, newPerson) {
-  return currentLine(newPerson)
-    console.log("Welcome, " + newPerson + ". You are number " + currentLine.length + " in line.");
+function takeANumber(line, name) {
+  line.push(name);
+  return `Welcome, ${name}. You are number ${line.length} in line.`;
 }
