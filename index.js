@@ -21,4 +21,3 @@ function currentLine(katzCurrentLine) {
     return `The line is currently: ${katzCurrentLine}`
   }
   }
-}
